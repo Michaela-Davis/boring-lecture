@@ -3,19 +3,33 @@ body {
   font-family: monospace;
 }
 
-.p-intro {
+.introp {
   font-style: italic;
   font-size: 80%;
 }
 
-.h2-intro{
+.introh2 {
   font-size: 40px;
   text-align: center;
   font-style: normal;
 }
 
-.img-intro{
+img {
   height: 300px;
   width: 500px;
-  text-align: center;
+  position: relative;
+}
+
+img. {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.important {
+  color: pink ;
+}
+
+.unimportant {
+  color: hotpink;
 }
